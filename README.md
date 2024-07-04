@@ -50,6 +50,12 @@ This can be fixed with the `device` param. (`mps` means Metal Performance Shader
 
 `classifier = pipeline("sentiment-analysis", device='mps')`
 
+## Run tests
+
+```commandline
+python -m unittest
+```
+
 ## Freeze requirements
 
 When making any changes to requirements, run:
